@@ -3,7 +3,7 @@ import { SearchOutline, HeartOutline, CartOutline, PersonOutline } from 'react-i
 
 const NavBar = () => {
     return (
-        <div>
+        <div className='bg-white z-50 top-0 sticky'>
             <div className='flex justify-between items-center cursor-pointer'>
                 <h1 className='font-bold text-2xl'>Prabbott.</h1>
                 <ul className='flex gap-4 text-gray-700'>
@@ -15,7 +15,7 @@ const NavBar = () => {
                     <li>Mirrors & Decors</li>
                 </ul>
                 <ul className='flex gap-4 text-gray-700'>
-                    <li> <SearchOutline /></li>
+                    <li><SearchOutline /></li>
                     <li><HeartOutline /></li>
                     <li><CartOutline /></li>
                     <li><PersonOutline /></li>
