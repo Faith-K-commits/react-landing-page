@@ -9,7 +9,12 @@ const HeroSection = () => {
                 <p>Our furniture embodies perfect blend of functionality and aesthetic appeal, ensuring every piece <br /> enhances your home with enduring elegance and superior durability.</p>
                 <button className='p-2 bg-black text-white rounded-lg cursor-pointer mt-4'>Join Membership</button>
             </div>
-            <span className='absolute mt-80 h-96 flex items-center justify-center cursor-pointer'><ArrowDownCircleOutline /></span>
+            {/* TODO: Add onclick to arrow down*/}
+            <span className='absolute mt-72 h-96 flex items-center justify-center cursor-pointer'><ArrowDownCircleOutline
+                color={'#ffffff'}
+                height="100px"
+                width="100px"
+            /></span>
             <img src="./images/furniture.jpg" alt="Furniture set" className='rounded-lg w-full' />
         </div>
     )
