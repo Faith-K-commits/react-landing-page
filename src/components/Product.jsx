@@ -15,6 +15,16 @@ const Product = ({ products }) => {
                     </div>
                 ))}
             </div>
+            <div className='flex gap-4 mt-12'>
+                <img src="./images/bed.jpg" alt="A bed" className='rounded-lg w-1/2 ' />
+                <div className='flex flex-col gap-4'>
+                    <img src="./images/couch.jpg" alt="A couch" className='rounded-lg' />
+                    <div className='flex gap-4'>
+                        <img src="./images/stool.jpg" alt="A stool" className='rounded-lg w-72' />
+                        <img src="./images/dining.jpg" alt="Dinning table" className='rounded-lg w-72' />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
