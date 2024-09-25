@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Products from "./components/Products";
+import CallToAction from "./components/CallToAction";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Experience />
       <Products />
+      <CallToAction />
     </div>
   );
 }
