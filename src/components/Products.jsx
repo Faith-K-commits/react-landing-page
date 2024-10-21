@@ -18,7 +18,6 @@ const Products = () => {
         <div>
             <div className='flex justify-between mt-8'>
                 <h1 className='font-bold text-5xl'>Interiors by Prabott.</h1>
-                {/* TODO: Make arrows dynamic */}
                 <div className='flex gap-4 cursor-pointer text-gray-500'>
                     <ArrowBackOutline /> <ArrowForwardOutline />
                 </div>
